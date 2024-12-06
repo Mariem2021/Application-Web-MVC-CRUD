@@ -1,11 +1,9 @@
 package com.example.product.services.serviceImpl;
-
 import com.example.product.entities.Produit;
 import com.example.product.repositories.ProduitRepository;
 import com.example.product.services.ProduitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
