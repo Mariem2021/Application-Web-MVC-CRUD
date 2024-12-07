@@ -12,7 +12,7 @@ import java.util.List;
 @SpringBootTest
 class ProductApplicationTests {
 
-	@Autowired
+/*	@Autowired
 	private ProduitRepository produitRepository;
 
 	@Test
@@ -45,9 +45,9 @@ class ProductApplicationTests {
 		List<Produit> prods = produitRepository.findAll();
 		for (Produit p : prods)
 			System.out.println(p);
-	}
-	/*
-	void contextLoads() {
 	}*/
+
+	void contextLoads() {
+	}
 
 }
