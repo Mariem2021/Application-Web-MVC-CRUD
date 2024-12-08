@@ -17,7 +17,9 @@ public interface ProduitService {
     List<Produit> findByNomProduitContains(String nom);
     List<Produit> findByNomPrix (String nom, Double prix);
     List<Produit> findByCategorie (Categorie categorie);
+/*
     List<Produit> findByCategorieIdCat(Long id);
+*/
     List<Produit> findByOrderByNomProduitAsc();
     List<Produit> trierProduitsNomsPrix();
 }

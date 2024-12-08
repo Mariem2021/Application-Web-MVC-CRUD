@@ -67,11 +67,11 @@ public class ProduitServiceImpl implements ProduitService {
         return produitRepository.findByCategorie(categorie);
     }
 
-    @Override
+   /* @Override
     public List<Produit> findByCategorieIdCat(Long id) {
         return produitRepository.findByCategorieIdCat(id);
     }
-
+*/
     @Override
     public List<Produit> findByOrderByNomProduitAsc() {
         return produitRepository.findByOrderByNomProduitAsc();
